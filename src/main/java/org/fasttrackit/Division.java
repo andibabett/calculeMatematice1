@@ -4,12 +4,8 @@ public class Division {
     double a;
     double b;
 
-    public void div() {
-
-    }
-
-    {
-        double div = a/b;
+    public void div(double a, double b) {
+        double div = a / b;
         System.out.println(a + "/" + b + "=" + div);
     }
 

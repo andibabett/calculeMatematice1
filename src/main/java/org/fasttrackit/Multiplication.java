@@ -5,7 +5,7 @@ public class Multiplication {
     double b;
 
 
-    public void multi() {
+    public void multi(double a, double b) {
         double multi = a * b;
         System.out.println(a + "*" + b + "=" + multi);
     }

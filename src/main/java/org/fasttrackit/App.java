@@ -34,13 +34,14 @@ public class App {
         Substraction substraction = new Substraction();
         Multiplication multiplication = new Multiplication();
         Division division = new Division();
-        summary.sum();
-        substraction.sub();
-        multiplication.multi();
-        division.div();
+        summary.sum(a,b);
+        substraction.sub(a,b);
+        multiplication.multi(a,b);
+        division.div(a,b);
 
 
     }
+
 }
 
 

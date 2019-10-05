@@ -4,7 +4,7 @@ public class Substraction {
     double a;
     double b;
 
-    public void sub() {
+    public void sub(double a, double b) {
         double sub = a - b;
         System.out.println(a + "-" + b + "=" + sub);
     }

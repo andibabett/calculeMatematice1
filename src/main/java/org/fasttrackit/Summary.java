@@ -1,11 +1,11 @@
 package org.fasttrackit;
 
 public class Summary {
-     double a;
-     double b;
+    double a;
+    double b;
 
 
-    public void sum() {
+    public void sum(double a, double b) {
         double sum = a + b;
         System.out.println(a + "+" + b + "=" + sum);
     }
@@ -17,4 +17,5 @@ public class Summary {
                 ", b=" + b +
                 '}';
     }
+
 }
