@@ -2,9 +2,7 @@ package org.fasttrackit;
 
 import java.util.Scanner;
 
-/**
- * Hello world!
- */
+
 //public class App {
 //    public static void main(String[] args) {
 //        System.out.println("Hello World!");
@@ -20,7 +18,6 @@ import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
 
         System.out.println("Dati numerele a si b");
         System.out.print(" a= ");

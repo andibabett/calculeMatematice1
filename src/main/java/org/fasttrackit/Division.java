@@ -4,16 +4,16 @@ public class Division {
     double a;
     double b;
 
-    public void div(double a, double b) {
-        double div = a / b;
-        System.out.println(a + "/" + b + "=" + div);
+
+    public double div(double b){
+        return div(a,b);
     }
 
-    @Override
-    public String toString() {
-        return "Division{" +
-                "a=" + a +
-                ", b=" + b +
-                '}';
+    public double div(double a, double b) {
+        double div = a / b;
+        System.out.println(a + "/" + b + "=" + div);
+
+        return div;
     }
+
 }

@@ -5,17 +5,16 @@ public class Summary {
     double b;
 
 
-    public void sum(double a, double b) {
-        double sum = a + b;
-        System.out.println(a + "+" + b + "=" + sum);
+    public double sum(double a){
+        return sum(a,6.6);
     }
 
-    @Override
-    public String toString() {
-        return "Summary{" +
-                "a=" + a +
-                ", b=" + b +
-                '}';
+
+    public double sum(double a, double b) {
+        double sum = a + b;
+        System.out.println(a + "+" + b + "=" + sum);
+        return sum;
     }
+
 
 }
